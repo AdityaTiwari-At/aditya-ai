@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Aditya AI</title>
+
+<style>
+
+body{
+font-family:Arial;
+text-align:center;
+margin-top:50px;
+}
+
+input{
+width:70%;
+padding:12px;
+}
+
+button{
+padding:12px;
+}
+
+#answer{
+margin-top:20px;
+font-size:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>🤖 Aditya AI</h1>
+
+<input id="question" placeholder="Ask anything">
+
+<button onclick="askAI()">
+
+Send
+
+</button>
+
+<div id="answer"></div>
+
+<script>
+
+async function askAI(){
+
+let q=document.getElementById("question").value;
+
+document.getElementById("answer").innerHTML="Thinking...";
+
+document.getElementById("answer").innerHTML=
+"You asked: "+q;
+
+}
+
+</script>
+
+</body>
+
+</html>

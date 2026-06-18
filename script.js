@@ -16,7 +16,7 @@ let response = await fetch(
 method:"POST",
 
 headers:{
-"Authorization":"Bearer YOUR_TOKEN",
+"Authorization":"Bearer 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",
 "Content-Type":"application/json"
 },
 
